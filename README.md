@@ -49,3 +49,43 @@ The system provides real-time health indicators categorized as Optimal, Warning,
 | Styling    | Tailwind CSS |
 | Charts     | Recharts     |
 | Build Tool | Vite 6       |
+
+## 🌐 IoT Integration
+
+The Renewable Energy Microgrid Dashboard is designed to seamlessly integrate with real-world IoT devices for live energy monitoring and control.
+
+### 📡 Data Acquisition
+
+The system can collect real-time data from:
+
+* Smart energy meters
+* Solar inverters
+* Battery Management Systems (BMS)
+* Voltage and current sensors
+
+These devices communicate using industry-standard protocols such as:
+
+* MQTT (Message Queuing Telemetry Transport)
+* WebSockets (for real-time streaming)
+* Modbus (commonly used in industrial systems)
+
+---
+
+### 🔗 Communication Architecture
+
+* IoT devices send telemetry data to a central broker/server
+* The frontend dashboard subscribes to live data streams
+* Updates are reflected instantly in the UI
+
+---
+
+### ⚙️ Current Implementation
+
+* 🔄 Simulated IoT data (updates every 2 seconds)
+* 🟡 Ready for real hardware integration
+
+---
+
+
+This IoT-ready architecture ensures that the dashboard can evolve from a simulation-based system into a fully functional smart microgrid solution.
+
