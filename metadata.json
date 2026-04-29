@@ -1,0 +1,6 @@
+{
+  "name": "Renewable Energy Microgrid Dashboard",
+  "description": "A comprehensive web dashboard to monitor and control a renewable energy microgrid system, displaying real-time sensor data, power flow, zone management, and historical trends.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
